@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'TheSans-Plain';
+    src: url('../webfonts/TheSans-Plain.woff2') format('woff2'),
+        url('../webfonts/TheSans-Plain.woff') format('woff'),
+        url('../webfonts/TheSans-Plain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSans-Bold';
+    src: url('../webfonts/TheSans-Bold.woff2') format('woff2'),
+        url('../webfonts/TheSans-Bold.woff') format('woff'),
+        url('../webfonts/TheSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    direction: ltr;
+    font-family: 'TheSans-Plain';
+    background: #fff;
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+.slider-home .slick-arrow.nextSlider {
+    right: -36px;
+    left: auto;
+    transform: rotate(180deg);
+}
+
+.slider-home .slick-arrow.prevSlider {
+    left: -36px;
+    right: auto;
+    transform: rotate(180deg);
+}
+
+.slider-home .slick-dots {
+    right: 12px;
+    left: auto;
+}
+
+.book-item_complate {
+    left: 10px;
+    right: auto;
+}
+
+.book-item_point-item {
+    right: 10px;
+    left: auto;
+}
+
+.main-progress_counter {
+    float: right;
+}
+
+.main-progress_line {
+    background-image: linear-gradient(to left, #ffc31a, #ffebb2);
+}
+
+.book-item_progress span {
+    background-image: linear-gradient(to left, #ffc31a, #ffebb2);
+}
+
+.slider-nav .slick-slide {
+    float: left;
+}
+
+.slider-home .slick-slide {
+    float: left;
+}
+
+.slider-single .slick-slide {
+    float: left;
+}
+
+.slider-timeline_item:last-child:before {
+    width: auto;
+    right: 50%;
+    left: 0;
+}
+
+.slider-timeline_item:first-child:before {
+    left: 50%;
+}
+
+.infoSide-footer_hint {
+    margin: 0 0 0 auto;
+}
+
+.btn-innerpage_collapse {
+    right: auto;
+    left: -9px;
+}
+
+.btn-innerpage_collapse i {
+    transition: 0.5s ease;
+    transform: rotateY(180deg);
+}
+
+.innerpage_content_handel.innerpage_content_open .btn-innerpage_collapse i {
+    transform: rotateY(0deg);
+}
+
+.innerpage-content_chapterSide {
+    right: auto;
+    left: 0;
+    border-radius: 31px 0 0 31px;
+}
+
+.innerpage_content_handel.innerpage_content_open .innerpage-content_infoSide {
+    /* width: calc(100% - 230px); */
+    transform: translateX(230px);
+}
+
+footer::before {
+    width: 100%;
+    left: auto;
+}
+
+.info-timeline-item_holder .end-side:after {
+    left: -38px;
+    right: auto;
+}
+
+.end-side .info-timeline_dec:before {
+    right: auto;
+    left: -8px;
+}
+
+.registration-page.signup_Side_open .signup_overlay {
+    transform: translateX(-100%);
+}
+
+.registration-page.signIn_Side_open .signin_overlay {
+    transform: translateX(100%);
+}
+/**************************************
+Media Queries
+***************************************/
+
+/*LG Screen*/
+@media (min-width:1200px) {
+    
+}
+
+/*MD Screen*/
+@media (max-width: 1199px) {
+    
+}
+
+/*SM Screen*/
+@media (max-width:991px) {
+    
+}
+
+/*XS Screen*/
+@media (max-width:767px) {
+    .innerpage-content_chapterSide {
+        left:-231px;
+        right: auto;
+        border-radius: 0 30px 30px 0;
+    }
+
+    .innerpage_content_handel.innerpage_content_open .innerpage-content_chapterSide {
+        right: auto;
+        left: -1px;
+    }
+
+    .btn-innerpage_collapse {
+        left: -1px;
+        right: auto;
+    }
+
+    .innerpage_content_handel.innerpage_content_open .btn-innerpage_collapse {
+        left: 229px;
+        right: auto;
+    }
+
+    .btn-innerpage_collapse i {
+        transform: rotateY(0deg);
+    }
+
+    .innerpage_content_handel.innerpage_content_open .btn-innerpage_collapse i {
+        transform: rotateY(180deg);
+    }
+
+    .innerpage_content_handel.innerpage_content_open .innerpage-content_infoSide {
+        transform: translateX(0px);
+    }
+
+    .registration-page.signIn_Side_open .signin_overlay {
+        transform: translateY(-100%);
+    }
+
+    .registration-page.signup_Side_open .signup_overlay {
+        transform: translateY(100%);
+    }
+
+}
+
+/*Custem Screen*/
+
+@media (max-width:590px) {
+    
+}
+
+/*XS Screen*/
+@media (min-width:767px) {
+    
+}

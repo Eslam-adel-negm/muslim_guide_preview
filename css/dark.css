@@ -1,0 +1,360 @@
+:root {
+    --transition: 0.75s ease;
+  }
+
+body {
+    transition: var(--transition);
+    background-color: #232323;
+    color: #fff;
+}
+
+
+nav {
+    transition: background var(--transition);
+    background: #3a3a3a;
+}
+
+.light-img {
+    display: none !important;
+}
+
+.dark-img {
+    display: inline-block !important;
+}
+
+nav .point-num {
+    transition: var(--transition);
+    background: #777777;
+}
+
+.nav-end {
+    transition: border-color var(--transition);
+    border-color: #515151;
+}
+
+.dropdown-menu {
+    background-color: #434343;
+}
+
+.dropdown-menu>li>a {
+    color: #fff;
+}
+
+.search-holder {
+    transition: var(--transition);
+    background: #3a3a3a;
+    border: none;
+}
+
+.suggestion-section::before {
+    transition: var(--transition);
+    background-color: #343434;
+    opacity: 0.5;
+}
+
+.book-item:hover .book-item_head::before {
+    transition: var(--transition);
+    background: rgb(0 0 0 / 35%);
+}
+
+.book-item_content {
+    transition: background-color var(--transition);
+    background-color: #272727;
+}
+
+.book-item_progress span {
+    background-image: linear-gradient(to right, #ffc31a, #434343);
+}
+
+html[dir="ltr"] .book-item_progress span {
+    background-image: linear-gradient(to left, #ffc31a, #434343);
+  }
+
+.book-item-content-info_item {
+    transition: var(--transition);
+    background: #414141;
+    color: #e8e8e8;
+}
+
+.book-item-content_dec {
+    transition: var(--transition);
+    color: #e8e8e8;
+}
+
+.book-item-content-info_item svg path {
+    fill: #e8e8e8;
+}
+
+.book-item-content-info_item svg  rect {
+    fill: #e8e8e8;
+}
+
+.book-item_progress {
+    background: #434343;
+}
+
+.book-item_content {
+    border: 1px solid rgb(63 63 63);
+}
+
+.slider-home .slick-arrow {
+    transition: all var(--transition);
+    background: #4b4b4b;
+    color: #fff;
+}
+
+.section-title_line span {
+    transition: background var(--transition);
+    background: #232323;
+}
+
+.section-title_line span:before {
+    background: rgb(63 63 63);
+}
+
+footer {
+    transition: background var(--transition);
+    background: #343434;
+}
+
+footer::before {
+    opacity: 0.4;
+}
+
+.main_progress {
+    transition: background var(--transition);
+    background: #444444;
+}
+
+.intro-section_inner {
+    transition: background var(--transition);
+    background: #292929;
+}
+
+.main-progress_line {
+    background-image: linear-gradient(to right, #ffc31a, #434343);
+}
+
+html[dir="ltr"] .main-progress_line  {
+    background-image: linear-gradient(to left, #ffc31a, #434343);
+  }
+
+.slider-timeline_icon {
+    background: #474747;
+    transition: background var(--transition);
+}
+
+.slider-timeline_item:before {
+    background: #474747;
+    transition: background var(--transition);
+}
+
+.btn-innerpage_collapse {
+    background: #515151;
+}
+
+.submenu-chaper_open {
+    background: #313131 !important;
+    transition: background var(--transition);
+}
+
+.submenu-chapterSide_ul {
+    background-color: #222222;
+    transition: background var(--transition);
+}
+
+.submenu-chapterSide_ul .chapterSide_item:nth-child(even) {
+    background: transparent;
+}
+
+.submenu-chaper_open > a {
+    color: #dfdfdf;
+}
+
+.innerpage-content_infoSide {
+    background: #272727;
+}
+
+.innerpage-content_chapterSide {
+    background: #2e2e2e;
+}
+
+.innerpage-content_chapterSide::-webkit-scrollbar-track {
+    background-color: #272727;
+}
+
+.infoSide_head .infoSide-head_home {
+    background: #464646;
+}
+
+.infoSide_head .infoSide-head_home svg {
+    fill: #fff;
+}
+
+.infoSide_head .infoSide-head_info {
+    background: #3d3621;
+    border: 1px solid #ffc71d;
+}
+
+.infoSide_head .infoSide-head_info svg {
+    fill: #ffc71d;
+}
+
+.info-vertical_list_item .info-vertical_list_front {
+    background: #474747;
+}
+
+.info-vertical_list_item {
+    border: none;
+}
+
+.info-vertical_list_item {
+    color: #fff;
+}
+
+.infoSide-footer_hint {
+    background: #474747;
+    border: 1px solid #474747;
+}
+
+a.infoSide_arrow {
+    background: #474747;
+    color: #fff;
+}
+
+.chapterSide_title {
+    background: #393939;
+}
+
+.chapterSide_item:nth-child(even) {
+    background: #393939;
+}
+
+.infoSide-Start-title2 {
+    color: #fff;
+}
+
+a.infoSide-Start_arrow {
+    color: #fff;
+}
+
+.infoSide-item_start {
+    background-image: url(../img/Start-slide-pattern-dark.png);
+}
+
+.info-timeline-item_holder .end-side:after {
+    background: #565656;
+}
+
+.info-timeline-item_holder .timeline-point {
+    background: #565656;
+}
+
+.info-collapes_item .info-collapes_head {
+    background: #474747;
+    color: #fff;
+}
+
+.info-collapes_item {
+    border: 1px solid #474747;
+}
+
+.info-icon-vertical-list_head {
+    background: #474747;
+    border: none;
+}
+
+.info-icon-vertical-list_dec {
+    background: #474747;
+    border: none;
+}
+
+.square-extra_horizontal .slick-dots li button:before {
+    font-size: 27px;
+    color: #a3a3a3;
+}
+
+.square-extra-horizontal-item_head {
+    background: #474747;
+}
+
+.square-extra-horizontal-item_dec {
+    border: 1px solid #474747;
+}
+
+.square-expand-horizontal-item_front {
+    border: none;
+    background: #474747;
+}
+
+.square-horizontal_item {
+    background: #474747;
+}
+
+.Question-Show-1_item {
+    background: #474747;
+    border: none;
+}
+
+.Question-Show-2_item {
+    background: #474747;
+    color: #ffffff;
+    border: none;
+}
+
+.info-square_list_item {
+    border: none;
+}
+
+.info-square_list_item .info-square_list_front {
+    background: #474747;
+}
+
+.infoSide-End_btn a {
+    background: #474747;
+    color: #fff;
+    border: none;
+}
+
+#thanksModal .modal-content {
+    background: #242424;
+}
+
+
+.registration-page.signup_Side_open .signup_Side .light-img {
+    display: none !important;
+}
+.registration-page.signup_Side_open .signup_Side .dark-img {
+    display: block !important;
+}
+
+.input-icon {
+    border: none;
+    background: #474747;
+}
+
+.registration_forget {
+    color: #fff !important;
+}
+
+.signup_overlay {
+    background-color: #2c2c2c;
+}
+
+.signin_overlay {
+    background-color: #2c2c2c;
+}
+
+.registration-page.signup_Side_open .signup_Side .login-nav .light-img {
+    display: none !important;
+}
+
+.registration-page.signup_Side_open .signup_Side .login-nav .dark-img {
+    display: block !important;
+}
+/*XS Screen*/
+@media (max-width:767px) {
+    .innerPage_timeline {
+        background: #272727;
+    }
+}
